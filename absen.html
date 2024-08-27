@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absen Dulu Guys</title>
+    <link rel="stylesheet" href="css/absen.css"> <!-- Link ke file CSS kamu -->
+</head>
+<body>
+    <div class="container">
+        <h1>Absen Dulu Guys</h1>
+        <form action="php/submit_absen.php" method="POST">
+            <div class="form-group">
+                <label for="name">Nama (boleh kosong/anonim):</label>
+                <input type="text" id="name" name="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
