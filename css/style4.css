@@ -1,0 +1,20 @@
+.typing {
+  font-size: 2rem;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: 100%;
+  animation: blink 0.75s step-end infinite;
+}
+
+/* Animasi kursor yang berkedip */
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
