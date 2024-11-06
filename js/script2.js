@@ -1,9 +1,20 @@
 // program mengetik
 const words = [
-  "Welcome to My Website",
-  "Explore My Projects",
-  "Get to Know Me",
-  "Let's Collaborate!",
+  "Bagus",
+  "Rahmat",
+  "Farhan",
+  "Budi",
+  "Rian",
+  "Dimas",
+  "Fikri",
+  "Nurul",
+  "Ilham",
+  "Azka",
+  "Bryan",
+  "Nila",
+  "Agus",
+  "Wowo",
+  "Owi",
 ];
 let i = 0;
 let j = 0;
