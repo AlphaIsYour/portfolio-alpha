@@ -21,6 +21,7 @@
 
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- <script src="js/script.js"></script> -->
     <!-- bootstrap icon -->
     <link
       rel="stylesheet"
@@ -42,7 +43,7 @@
     ></script>
 
     <!-- Navbar start -->
-    <nav class="navbar" style="background-color: #f8f8fa">
+    <nav class="navbar" style="background-color: #ffffff">
       <div class="container-fluid" class="position-relative">
         <a class="navbar-brand">YOUR<span>ALPHA</span></a>
 
@@ -55,7 +56,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html" style="color: black">
-                ABOUT ME
+                ABOUT
               </a>
             </li>
             <li class="nav-item">
@@ -97,10 +98,9 @@
     <section class="about" id="about">
       <h2>About<span> Me</span></h2>
 
+      <div id="board"></div>
+      <!-- <h1>Turns: <span id="turns">0</span></h1> -->
       <div class="row">
-        <div class="about-img">
-          <img src="img/killua3.jpg" alt="About Me" />
-        </div>
         <div class="content">
           <h3>Kenapa web ini dibuat.</h3>
           <p>
@@ -109,8 +109,8 @@
           </p>
         </div>
       </div>
-      <div class="learn text-center">
-        <a href="#" style="text-decoration: none"> >> Learn More << </a>
+      <div class="pl">
+        <a href="#" id="pl"><p>Learn</p></a>
       </div>
     </section>
     <!-- About Section end -->
@@ -243,6 +243,7 @@
     <!-- JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/pazel.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
     <script type="text/javascript">
       VanillaTilt.init(
