@@ -47,7 +47,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 7%;
+  padding: 15px 7%;
   border-bottom: 1px solid var(--hitam);
   position: fixed;
   top: 0;
@@ -132,10 +132,6 @@ body {
   line-height: 1.2;
 }
 
-.hero .content h1 span {
-  color: var(--biru);
-}
-
 .hero .content p {
   font-family: "Abhaya Libre", serif;
   width: 100%;
@@ -171,6 +167,10 @@ p .typing {
   height: 40px;
   display: inline-block;
   animation: blink 0.75s step-end infinite;
+}
+
+.mask-container {
+  margin-left: 40px;
 }
 /* hero section end */
 
@@ -208,8 +208,39 @@ p .typing {
 .about h2 span,
 .game h2 span,
 .anime h2 span,
-.mc h2 span {
-  color: var(--biru);
+.mc h2 span,
+.hero .content h1 span {
+  animation: colorChange 8s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  12.5% {
+    color: rgb(255, 127, 0);
+  }
+  25% {
+    color: rgb(255, 255, 0);
+  }
+  37.5% {
+    color: rgb(0, 255, 0);
+  }
+  50% {
+    color: rgb(0, 0, 255);
+  }
+  62.5% {
+    color: rgb(75, 0, 130);
+  }
+  75% {
+    color: rgb(148, 0, 211);
+  }
+  87.5% {
+    color: rgb(255, 20, 147);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
 }
 
 .about .row {
@@ -227,8 +258,9 @@ p .typing {
 }
 
 .about .row .content h3 {
+  font-family: "Kanit", sans-serif;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin-bottom: 10px;
   margin-top: 30px;
 }
